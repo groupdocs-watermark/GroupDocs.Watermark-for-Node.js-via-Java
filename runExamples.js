@@ -4,8 +4,13 @@ const helloWorld = require('./Examples/QuickStart/helloWorld')
 
  const addAnImageWatermark = require('./Examples/BasicUsage/addAnImageWatermark')
  const addATextWatermark = require('./Examples/BasicUsage/addATextWatermark')
+ const addTiledWatermark = require('./Examples/BasicUsage/addTiledWatermark')
+ const addTextWatermarkWithCustomFont = require('./Examples/BasicUsage/addTextWatermarkWithCustomFont')
+ const generateDocumentPreview = require('./Examples/BasicUsage/generateDocumentPreview')
  const getDocumentInfoForLocalFile = require('./Examples/BasicUsage/getDocumentInfoForLocalFile')
  const getSupportedFileFormats = require('./Examples/BasicUsage/getSupportedFileFormats')
+
+const addWatermarksToSpecificPages = require('./Examples/AdvancedUsage/addingWatermarks/addWatermarksToSpecificPages')
 
  const diagramAddWatermarkToAllPagesOfType = require('./Examples/AdvancedUsage/addingWatermarks/diagrams/diagramAddWatermarkToAllPagesOfType')
  const diagramLockWatermarkShape = require('./Examples/AdvancedUsage/addingWatermarks/diagrams/diagramLockWatermarkShape')
@@ -68,14 +73,18 @@ const searchWatermarkWithSearchString = require('./Examples/AdvancedUsage/search
     await Promise.all([
       /* NOTE: Please uncomment the example you want to try out */
       setLicense(),
+
       /* Basic usage */
       helloWorld(),
       // addATextWatermark(),
       // addAnImageWatermark(),
+      // addTiledWatermark(),
+      // addTextWatermarkWithCustomFont(),
       // getDocumentInfoForLocalFile(),
       // getSupportedFileFormats(),
 
       // /* Advance usage */
+      // addWatermarksToSpecificPages(),
       // diagramAddWatermarkToAllPagesOfType(),
       // diagramLockWatermarkShape(),
       // diagramRemoveHyperlinks(),
@@ -115,7 +124,6 @@ const searchWatermarkWithSearchString = require('./Examples/AdvancedUsage/search
       // wordProcessingRemoveWatermarkFromSection(),
 
       // loadFromLocalDisk(),
-      // //loadFromStream(), //not working
       // loadingDocumentOfSpecificFormat(),
       // loadPasswordProtectedDocument(),
 

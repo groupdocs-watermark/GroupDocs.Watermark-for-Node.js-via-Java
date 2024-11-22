@@ -11,7 +11,8 @@ function addATextWatermark() {
   watermark.setForegroundColor(groupdocsWatermark.Color.getRed());
   watermark.setHorizontalAlignment(groupdocsWatermark.HorizontalAlignment.Center);
   watermark.setVerticalAlignment(groupdocsWatermark.VerticalAlignment.Center);
-
+  watermark.setOpacity(0.4);
+  
   watermarker.add(watermark);
   watermarker.save(outputFilePath);
   watermarker.close();

@@ -4,6 +4,7 @@ const fs = require('fs');
 
 const SamplePath = path.join(__dirname, './Resources/SampleFiles')
 const ImagesPath = path.join(__dirname, './Resources/SampleFiles/Images')
+const FontsPath = path.join(__dirname, './Resources/Fonts')
 const OutputPath = path.join(__dirname, 'testResults');
 
 //exports = module.exports
@@ -11,16 +12,16 @@ const OutputPath = path.join(__dirname, 'testResults');
 module.exports = {
   LicensePath: (process.env.PATH_TO_LICS + process.env.PRODUCT_LIC) || '',
   SamplePath,
+  FontsPath,
   InDocumentDocx: SamplePath + '/document.docx',
-  SampleDocumentPdf: SamplePath + '/sample.pdf',
-  InDocumentPdf: SamplePath + '/document.pdf',
+  InDocumentPdf: SamplePath + '/sample.pdf',
   InDiagramVsdx: SamplePath + '/diagram.vsdx',
-  InMessageMsg: SamplePath + '/message.msg',
-  SampleMsg: SamplePath + '/sample.msg',
+  InMessageMsg: SamplePath + '/test.msg',
+  SampleMsg: SamplePath + '/empty.msg',
   ImageTiff: SamplePath + '/image.tiff',
   InPresentationPptx: SamplePath + '/presentation.pptx',
   InDocumentXlsx: SamplePath + '/sample.xlsx',
-  InSpreadsheetXlsx: SamplePath + '/spreadsheet.xlsx',
+  InSpreadsheetXlsx: SamplePath + '/document.xlsx',
   InProtectedDocumentDocx: SamplePath + '/protected-document.docx',
   InSourceDocx: SamplePath + '/source.docx',
 
