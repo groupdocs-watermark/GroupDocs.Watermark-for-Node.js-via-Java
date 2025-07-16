@@ -16,6 +16,7 @@ function addATextWatermark() {
   watermarker.add(watermark);
   watermarker.save(outputFilePath);
   watermarker.close();
+  console.log(`Text watermark added and document saved successfully.\nCheck output in ${outputFilePath}.`);
 }
 
   module.exports = addATextWatermark

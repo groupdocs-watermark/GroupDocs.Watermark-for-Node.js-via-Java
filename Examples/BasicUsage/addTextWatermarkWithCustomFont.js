@@ -19,6 +19,7 @@ function addTextWatermarkWithCustomFont() {
   watermarker.add(watermark);
   watermarker.save(outputFilePath);
   watermarker.close();
+  console.log(`Text watermark with custom font added.\nCheck output in ${outputFilePath}.`);
 }
 
   module.exports = addTextWatermarkWithCustomFont

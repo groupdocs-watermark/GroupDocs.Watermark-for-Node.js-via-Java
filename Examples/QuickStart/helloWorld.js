@@ -20,7 +20,7 @@ function helloWorld() {
   
     watermarker.save(outputFilePath);
     watermarker.close();
-    console.log('Watermark added and document saved successfully.');
+    console.log(`Watermark added and document saved successfully.\nCheck output in ${outputFilePath}.`);
   }
 
   module.exports = helloWorld

@@ -32,6 +32,7 @@ function addTiledWatermark() {
   watermarker.add(watermark);
   watermarker.save(outputFilePath);
   watermarker.close();
+  console.log(`Tiled watermark added.\nCheck output in ${outputFilePath}.`);  
 }
 
   module.exports = addTiledWatermark

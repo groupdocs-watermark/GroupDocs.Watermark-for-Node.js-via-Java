@@ -1,6 +1,6 @@
 {
   "name": "groupdocs.watermark-for-node.js-via-java",
-  "version": "24.11.0",
+  "version": "25.7.0",
   "description": "GroupDocs.Watermark for Node.js via Java examples, plugins and showcase projects",
   "main": "examples.js",
   "directories": {
@@ -20,17 +20,7 @@
   },
   "homepage": "https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Node.js-via-Java#readme",
   "dependencies": {
-    "@groupdocs/groupdocs.watermark": "^24.11.0",
+    "@groupdocs/groupdocs.watermark": "^25.7.0",
     "dotenv": "^16.3.1"
-  },
-  "devDependencies": {
-    "eslint": "^8.45.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-config-prettier": "^8.8.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-jsx-a11y": "^6.7.1",
-    "eslint-plugin-prettier": "^4.2.1",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0"
   }
 }

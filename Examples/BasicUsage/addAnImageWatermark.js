@@ -14,7 +14,7 @@ function addAnImageWatermark() {
   watermarker.add(imageWatermark);
   watermarker.save(outputFilePath);
   watermarker.close();
-  console.log('Image watermark added and document saved successfully.');
+  console.log(`Image watermark added and document saved successfully.\nCheck output in ${outputFilePath}.`);
 }
 
   module.exports = addAnImageWatermark
